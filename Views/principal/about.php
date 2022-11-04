@@ -1,25 +1,23 @@
 <?php include_once 'Views/template-principal/header.php'; ?>
 
-    <section class="bg-dark py-5">
-        <div class="container">
-            <div class="row align-items-center py-5">
-                <div class="col-md-8 text-white">
-                    <h1>Somos</h1>
-                    <p>
-                        Una empresa seria que se dedica a la ventad
-                        de pizzas con delivery.
-                    </p>
+    <section class="bg-dark py-5 acerca">
+        <div class="container ">
+            <div class="row align-items-center py-5 justify-content-center">
+                <div class="col-12 text-white text-center ">
+                    <h1 class="display-1 text-uppercase">Acerca de nosotros</h1>
                 </div>
-                <div class="col-md-4">
-                    <img src="<?php  echo BASE_URL;?>assets/img/categoria5.jpg" alt="About Hero" width="200">
-                </div>
+               
             </div>
         </div>
     </section>
     <!-- Close Banner -->
 
     <!-- Start Section -->
-    <section class="container py-5">
+    <section class="container py-5 ">
+        <h1 class="text-bold ">Nuestra historia</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nostrum dolores rerum incidunt nemo quibusdam voluptatibus perferendis eveniet ipsa aliquid, magni ut reiciendis accusamus? Commodi, delectus. Delectus quidem vero repellendus?</p>
+    </section>
+    <section class="container py-0">
         <div class="row text-center pt-5 pb-3">
             <div class="col-lg-6 m-auto">
                 <h1 class="h1">Servicios que brindamos</h1>
